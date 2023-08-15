@@ -3,6 +3,7 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 import Headers from './header page/Header'
+import { Route, Routes } from 'react-router-dom'
 
 
 function App() {
@@ -12,7 +13,9 @@ function App() {
     <>
     <div>
 <Headers/>
-
+<Routes>
+  <Route path='/' element={<h>website</h>}></Route>
+</Routes>
 
   </div>
     </>
