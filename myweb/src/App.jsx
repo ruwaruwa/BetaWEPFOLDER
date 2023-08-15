@@ -14,7 +14,7 @@ function App() {
     <div>
 <Headers/>
 <Routes>
-  <Route path='/' element={<h>website</h>}></Route>
+  <Route path='/' element={<h>websites</h>}></Route>
 </Routes>
 
   </div>
