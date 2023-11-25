@@ -23,7 +23,7 @@ function App() {
     <div>
 {/* <Sliders/> */}
 <Routes>
-  {/* <Route path='/' element={<h6> web page</h6>}></Route> */}
+  <Route path='*' element={<h6> web notfound</h6>}></Route>
   <Route  path='/' element={<Headers/>}> </Route>
      <Route path='home' element={<Homepage/>}></Route>
      <Route path='guryaha' element={<Guryaha/>}></Route>
